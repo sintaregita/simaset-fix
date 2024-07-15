@@ -1,0 +1,350 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.register-r1b {
+  box-sizing: border-box;
+  padding: 3.1rem 15.5rem 5.5rem 18.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/register-bg.png');
+}
+.register-r1b .bagian-logistik-telkom-university-surabaya-m8Z {
+  margin: 0rem 2.7rem 2.5rem 0rem;
+  max-width: 49rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD {
+  width: 100%;
+  height: 60.1rem;
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .frame-5-NPF {
+  width: 74.2rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 19.1rem;
+  top: 49.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d2a17;
+  border-radius: 0.6rem;
+}
+.register-r1b .auto-group-kmqe-qeD .logo-simaset-1-da5 {
+  width: 20.7rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 42.9rem;
+  top: 3.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-ruha-MW5 {
+  width: 74.2rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 19.1rem;
+  top: 20.6rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-ruha-MW5 .rectangle--HPj {
+  margin: 0.2rem 9.6rem 0rem 0rem;
+  width: 32.3rem;
+  height: 2.9rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-ruha-MW5 .rectangle--Nvy {
+  margin-bottom: 0.2rem;
+  width: 32.3rem;
+  height: 2.9rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-987e-66H {
+  width: 74.2rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 19.1rem;
+  top: 28rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-987e-66H .auto-group-soja-DAu {
+  margin: 0.2rem 9.6rem 0rem 0rem;
+  box-sizing: border-box;
+  padding: 0rem 0.4rem 0rem 29.3rem;
+  height: 2.9rem;
+  border: solid 0.1rem #000000;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-987e-66H .auto-group-soja-DAu .sort-down-program-studi-idT {
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-987e-66H .auto-group-bkpw-DKK {
+  margin-bottom: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.3rem 0.4rem 0rem 29.3rem;
+  border: solid 0.1rem #000000;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-987e-66H .auto-group-bkpw-DKK .sort-down-status-9Ts {
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.register-r1b .auto-group-kmqe-qeD .selamat-datang-efX {
+  width: 12.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 19.2rem;
+  top: 11.1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.register-r1b .auto-group-kmqe-qeD .silakan-daftar-akun-anda-terlebih-dahulu--9sB {
+  width: 22.8rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 19.2rem;
+  top: 14.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-vlx4-TN5 {
+  width: 46.8rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 19.2rem;
+  top: 18.1rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-vlx4-TN5 .nama-lengkap-Njw {
+  margin: 0.2rem 33.7rem 0rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-vlx4-TN5 .nim-nip-sgh {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2102272511;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-lpvl-CDB {
+  width: 45.7rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 19.4rem;
+  top: 25.5rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-lpvl-CDB .program-studi-WzZ {
+  margin: 0.2rem 34.2rem 0rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-lpvl-CDB .status-2xu {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .email-AZK {
+  width: 3rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 19.7rem;
+  top: 33.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-6qvk-sid {
+  width: 53.3rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 19.7rem;
+  top: 40.3rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-6qvk-sid .kata-sandi-buX {
+  margin: 0rem 35.3rem 0.1rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-6qvk-sid .konfirmasi-kata-sandi-tNq {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2102272511;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .rectangle-email-okh {
+  width: 74.2rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 19.1rem;
+  top: 35.6rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-am3i-5iD {
+  width: 73.9rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 19.4rem;
+  top: 42.8rem;
+  display: flex;
+  align-items: center;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-am3i-5iD .rectangle-email-uSM {
+  margin-right: 10rem;
+  width: 31.6rem;
+  height: 2.9rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .auto-group-am3i-5iD .rectangle-email-cbf {
+  width: 32.3rem;
+  height: 2.9rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #eee9e9;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.register-r1b .auto-group-kmqe-qeD .sudah-memiliki-akun-kembali-ke-login-jwB {
+  width: 27.3rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 42.5rem;
+  top: 54rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2189999898;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.register-r1b .auto-group-kmqe-qeD .sudah-memiliki-akun-kembali-ke-login-jwB .sudah-memiliki-akun-kembali-ke-login-jwB-sub-0 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+}
+.register-r1b .auto-group-kmqe-qeD .sudah-memiliki-akun-kembali-ke-login-jwB .sudah-memiliki-akun-kembali-ke-login-jwB-sub-1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  color: #9d2a17;
+  font-family: Inter, 'Source Sans Pro';
+}

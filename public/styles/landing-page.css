@@ -1,0 +1,696 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.landing-page-AwF {
+  box-sizing: border-box;
+  padding-bottom: 2.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+.landing-page-AwF .auto-group-zusz-Hky {
+  margin-bottom: 22.1rem;
+  width: 144.3rem;
+  height: 58.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-zusz-Hky .gedung-tel-u-1-Csw {
+  width: 143.9rem;
+  height: 58.9rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-zusz-Hky .header-XvD {
+  width: 144rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(157, 42, 23, 0.1000000015);
+}
+.landing-page-AwF .auto-group-zusz-Hky .frame-1-sDP {
+  width: 13.3rem;
+  height: 4rem;
+  position: absolute;
+  left: 114.7rem;
+  top: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d2a17;
+  border-radius: 0.5rem;
+}
+.landing-page-AwF .auto-group-zusz-Hky .frame-2-wDF {
+  width: 13.4rem;
+  height: 4rem;
+  position: absolute;
+  left: 65.3rem;
+  top: 51rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d2a17;
+  border-radius: 0.5rem;
+}
+.landing-page-AwF .auto-group-zusz-Hky .rectangle-1-omF {
+  width: 144rem;
+  height: 10.2rem;
+  position: absolute;
+  left: 0;
+  top: 32rem;
+  background-color: rgba(217, 217, 217, 0.349999994);
+}
+.landing-page-AwF .auto-group-zusz-Hky .bagian-logistik-telkom-university-surabaya-YD3 {
+  width: 56.8rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 43.6rem;
+  top: 33.3rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.2189999686;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-zusz-Hky .bagian-logistik-telkom-university-surabaya-YD3 .bagian-logistik-telkom-university-surabaya-YD3-sub-0 {
+}
+.landing-page-AwF .auto-group-zusz-Hky .bagian-logistik-telkom-university-surabaya-YD3 .bagian-logistik-telkom-university-surabaya-YD3-sub-1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.2189999686;
+  color: #9d2a17;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-zusz-Hky .melayani-civitas-akademika-dalam-administrasi-peminjaman-aset-fS5 {
+  width: 55.9rem;
+  height: 2rem;
+  position: absolute;
+  left: 44.1rem;
+  top: 43.9rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-zusz-Hky .logo-simaset-1-XjB {
+  width: 20.7rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 16rem;
+  top: 2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-zusz-Hky .masuk-Tsj {
+  width: 6.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 102.4rem;
+  top: 2.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #191314;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-zusz-Hky .vector-3-y5P {
+  width: 0.55rem;
+  height: 1rem;
+  position: absolute;
+  left: 110.4rem;
+  top: 3.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-fqv4-V3j {
+  margin-bottom: 3.5rem;
+  width: 144.1rem;
+  height: 80rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-18-noX {
+  width: 144rem;
+  height: 80rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 0;
+  background-color: #ffffff;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-4-vPw {
+  width: 144rem;
+  height: 36.6rem;
+  position: absolute;
+  left: 0;
+  top: 35.8rem;
+  border: solid 0 #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(217, 217, 217, 0.6000000238);
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-6-Qpu {
+  width: 25.4rem;
+  height: 28rem;
+  position: absolute;
+  left: 25.8rem;
+  top: 28.5rem;
+  box-shadow: 1rem 1rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #9d2a17;
+  border-radius: 1rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-10-iah {
+  width: 25.4rem;
+  height: 28rem;
+  position: absolute;
+  left: 92.8rem;
+  top: 28.5rem;
+  box-shadow: 1rem 1rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #9d2a17;
+  border-radius: 1rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-9-DnM {
+  width: 25.4rem;
+  height: 28rem;
+  position: absolute;
+  left: 59.3rem;
+  top: 28.5rem;
+  box-shadow: 1rem 1rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #9d2a17;
+  border-radius: 1rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .tentang-kami-vgm {
+  width: 26.8rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 59.7rem;
+  top: 7.1rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .unit-logistik-kami-menawarkan-solusi-pengelolaan-logistik-yang-inovatif-dan-efisien-dengan-fokus-pada-keandalan-kecepatan-dan-keberlanjutan-kami-bertekad-untuk-mendukung-kelancaran-operasional-kampus-dan-memberikan-pengalaman-terbaik-bagi-seluruh-komunitas-akademis-2zh {
+  width: 115.8rem;
+  height: 7.4rem;
+  position: absolute;
+  left: 14.45rem;
+  top: 13.1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-12-pff {
+  width: 19.2rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 28.9rem;
+  top: 29.6rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-15-kJR {
+  width: 19.2rem;
+  height: 17.6rem;
+  position: absolute;
+  left: 29.2rem;
+  top: 36.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-16-gC5 {
+  width: 23.5rem;
+  height: 18.9rem;
+  position: absolute;
+  left: 60.4rem;
+  top: 36.5rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-20-DC1 {
+  width: 23.5rem;
+  height: 18.9rem;
+  position: absolute;
+  left: 26.9rem;
+  top: 36.5rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-19-9LZ {
+  width: 23.5rem;
+  height: 18.9rem;
+  position: absolute;
+  left: 93.9rem;
+  top: 36.5rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-13-snM {
+  width: 19.2rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 62.4rem;
+  top: 29.6rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .rectangle-14-CJq {
+  width: 19.2rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 96.1rem;
+  top: 29.6rem;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .profesionalisme-dan-keterampilan-j3s {
+  width: 18.9rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 29.2rem;
+  top: 30.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.2189999989;
+  color: #9d2a17;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .jaringan-mitra-luas-1n5 {
+  width: 14.7rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 64.7rem;
+  top: 30.7rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #9d2a17;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-fqv4-V3j .fleksibilitas-penyesuaian-kebutuhan-WTw {
+  width: 18.9rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 96.2rem;
+  top: 30.3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #9d2a17;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .tim-profesional-yang-berpengalaman-dalam-manajemen-logistik-kami-menyediakan-layanan-yang-ditunjang-oleh-keahlian-dan-keterampilan-tingkat-tinggi-ohw {
+  width: 17.7rem;
+  height: 11.1rem;
+  position: absolute;
+  left: 29.95rem;
+  top: 38.1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2190000094;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .tim-profesional-yang-berpengalaman-dalam-manajemen-logistik-kami-menyediakan-layanan-yang-ditunjang-oleh-keahlian-dan-keterampilan-tingkat-tinggi-ohw .tim-profesional-yang-berpengalaman-dalam-manajemen-logistik-kami-menyediakan-layanan-yang-ditunjang-oleh-keahlian-dan-keterampilan-tingkat-tinggi-ohw-sub-0 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .tim-profesional-yang-berpengalaman-dalam-manajemen-logistik-kami-menyediakan-layanan-yang-ditunjang-oleh-keahlian-dan-keterampilan-tingkat-tinggi-ohw .tim-profesional-yang-berpengalaman-dalam-manajemen-logistik-kami-menyediakan-layanan-yang-ditunjang-oleh-keahlian-dan-keterampilan-tingkat-tinggi-ohw-sub-1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .jaringan-mitra-yang-luas-bagian-logistik-kami-dapat-mengoptimalkan-serta-memastikan-efisiensi-operasional-dan-memberikan-nilai-tambah-kepada-telkom-university-surabaya-sNM {
+  width: 17.6rem;
+  height: 12.7rem;
+  position: absolute;
+  left: 63.55rem;
+  top: 38.1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-fqv4-V3j .kami-memahami-bahwa-setiap-kebutuhan-dapat-berbeda-sehingga-kami-menawarkan-solusi-yang-dapat-disesuaikan-mulai-dari-pengelolaan-inventaris-aset-hingga-distribusi-barang-dengan-tingkat-fleksibilitas-tertinggi-V8q {
+  width: 18rem;
+  height: 14.3rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 38.1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .layanan-logistik-uTT {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.2189999686;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT {
+  width: 100%;
+  height: 39.1rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb {
+  box-sizing: border-box;
+  padding: 4.6rem 9.5rem 4.9rem 5.4rem;
+  width: 100%;
+  height: 34.5rem;
+  position: absolute;
+  left: 18.4rem;
+  top: 0.7rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-prct-Fvd {
+  margin-right: 8rem;
+  box-sizing: border-box;
+  padding: 2.9rem 4.8rem 3.8rem 20.9rem;
+  width: 44.6rem;
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  border: solid 2rem #9d2a17;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #eee9e9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-prct-Fvd .peminjaman-aset-xKF {
+  margin-bottom: 12.8rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-prct-Fvd .frame-4-Fp9 {
+  margin-right: 0.4rem;
+  width: 7.3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d2a17;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-za8t-sad {
+  box-sizing: border-box;
+  padding: 2.9rem 5.6rem 3.8rem 4.5rem;
+  width: 44.6rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 2rem #9d2a17;
+  background-color: #eee9e9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-za8t-sad .pemeliharaan-aset-z9T {
+  margin: 0rem 0rem 1.3rem 13.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-za8t-sad .pemeliharaan-aset-1-HeM {
+  margin-right: 22.2rem;
+  width: 12.3rem;
+  height: 11.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .auto-group-5b6k-aZb .auto-group-za8t-sad .frame-3-p8V {
+  margin-left: 27.2rem;
+  width: 7.3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9d2a17;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-cc3n-dPT .dboxduotone-Exu {
+  width: 18.2rem;
+  height: 16.7rem;
+  position: absolute;
+  left: 24.6rem;
+  top: 9.4rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-unke-ZVP {
+  width: 147.8rem;
+  height: 24.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing-page-AwF .auto-group-unke-ZVP .footer-V89 {
+  opacity: 0.8;
+  width: 147.8rem;
+  height: 22.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: blur(0.2rem);
+  background-color: rgba(0, 0, 0, 0.8000000119);
+}
+.landing-page-AwF .auto-group-unke-ZVP .besar-logo-1-D49 {
+  width: 12.6rem;
+  height: 12.6rem;
+  position: absolute;
+  left: 17.5rem;
+  top: 4.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-unke-ZVP .rectangle-21-XqX {
+  width: 100%;
+  height: 3.9rem;
+  position: absolute;
+  left: 0;
+  top: 20.9rem;
+  background-color: #9d2a17;
+}
+.landing-page-AwF .auto-group-unke-ZVP .bagian-logistik-telkom-university-surabaya-gCd {
+  width: 52.4rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 45.75rem;
+  top: 21.7rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-unke-ZVP .bagian-logistik-lt-ground-gedung-utamajl-ketintang-timur-156-surabaya62-811-3221-2000-xR3 {
+  width: 34.1rem;
+  height: 9rem;
+  position: absolute;
+  left: 36.2rem;
+  top: 11rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2190000216;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.landing-page-AwF .auto-group-unke-ZVP .kontak-kami-Q29 {
+  width: 14.9rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 35.2rem;
+  top: 4.4rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.218999958;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-AwF .auto-group-unke-ZVP .line-1-iHj {
+  width: 12.4rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 36.2rem;
+  top: 7.4rem;
+  background-color: #9d2a17;
+}
+.landing-page-AwF .auto-group-unke-ZVP .social-icons-2JR {
+  width: 1.7989rem;
+  height: 1.7996rem;
+  position: absolute;
+  left: 36.2rem;
+  top: 8.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-unke-ZVP .social-icons-wRP {
+  width: 1.7914rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 39.6rem;
+  top: 8.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-unke-ZVP .social-icons-sK3 {
+  width: 1.7rem;
+  height: 1.6938rem;
+  position: absolute;
+  left: 43rem;
+  top: 8.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-AwF .auto-group-unke-ZVP .social-icons-CcD {
+  width: 1.5355rem;
+  height: 0.9846rem;
+  position: absolute;
+  left: 46.3rem;
+  top: 8.9075rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+@media only screen and (min-width: 1200px) {
+	.landing-page-AwF .auto-group-zusz-Hky {
+		width: 90%; /* Atur lebar menjadi 90% ketika layar lebih besar dari 1200px */
+	}
+}
+
+.landing-page-AwF .auto-group-zusz-Hky .gedung-tel-u-1-Csw {
+	width: 100%;
+	height: 100%; /* Diganti menjadi 100% agar mengisi container */
+	object-fit: cover;
+	vertical-align: top;
+}
+@media only screen and (min-width: 1200px) {
+	.landing-page-AwF .auto-group-zusz-Hky {
+		width: 90%; /* Atur lebar menjadi 90% ketika layar lebih besar dari 1200px */
+	}
+}
+
+.landing-page-AwF .auto-group-zusz-Hky .gedung-tel-u-1-Csw {
+	width: 100%;
+	height: 100%; /* Diganti menjadi 100% agar mengisi container */
+	object-fit: cover;
+	vertical-align: top;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+	/* Adjustments for large container */
+	.landing-page-AwF .auto-group-zusz-Hky {
+		max-width: 100%; /* Adjust max-width for smaller screens */
+	}
+
+	/* Header */
+	.landing-page-AwF .auto-group-zusz-Hky .header-XvD {
+		max-width: 100%; /* Adjust max-width for smaller screens */
+	}
+
+	/* Footer */
+	.landing-page-AwF .auto-group-unke-ZVP {
+		max-width: 100%; /* Adjust max-width for smaller screens */
+	}
+}
