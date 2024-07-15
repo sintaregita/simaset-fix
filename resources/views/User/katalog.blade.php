@@ -207,6 +207,16 @@
 
                         </div>
                     </div>
+                    @if(session('errors'))
+                    <div class="alert alert-warning alert-dismissible fade show my-4" role="alert">
+                        @foreach ($errors->all() as $error)
+                        {{ $error }}<br />
+                        @endforeach
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    @endif
                     <!-- Small boxes (Stat box) -->
                     <div class="row mt-4">
                         @foreach ($asets as $aset)
@@ -221,7 +231,11 @@
                                             <h4 id="stok-{{$aset->id}}">Stok: {{ $aset->jumlah }}</h4>
                                         </div>
                                         <div>
+                                            @if($aset->jumlah == 0)
+                                            <p class="bg-danger px-2 rounded" id="aval-{{ $aset->id }}">Tidak Tersedia</p>
+                                            @else
                                             <p class="bg-success px-2 rounded" id="aval-{{ $aset->id }}">Tersedia</p>
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="mt-3">
@@ -388,8 +402,5 @@
             });
         });
     </script>
-
-
 </body>
-
 </html>

@@ -63,6 +63,20 @@ class UserController extends Controller
     }
     public function storeTransaksi(Request $request)
     {
+        $messages = [
+            'required' => ':Attribute harus diisi.',
+            'date' => 'Isi :attribute dengan tanggal',
+            'after_or_equal' => 'Isi :attribute dengan tanggal setelah tanggal pinjam'
+        ];
+        $validator = Validator::make($request->all(), [
+            'tanggal_pinjam' => ['required', 'date'],
+            'tanggal_kembali' => ['required', 'date', 'after_or_equal:tanggal_pinjam'],
+            'tujuan_pinjam' => ['required', 'string', 'min:3'],
+            'keranjang_data' => ['required', 'string', 'max:255'],
+        ], $messages);
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
         // Generate kode transaksi secara otomatis
         $kode_transaksi = 'A' . Str::upper(Str::random(6)); // Misalnya kode transaksi berformat 'A' diikuti dengan 6 karakter acak
         $user = Auth::user();
@@ -87,7 +101,7 @@ class UserController extends Controller
                     'id_peminjaman' => $transaksi->id,
                     'id_aset' => $item['id'],
                     'jumlah' => $item['qty'],
-                    'status' => 'Proses Verifikasi'
+                    'status' => 'V'
                 ]);
             }
 
