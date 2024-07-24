@@ -69,7 +69,7 @@ function arrFakultas()
                 ]
             ],
             [
-                'FAKULTAS' => 'FAKULTAS TEKNIK ELEKTRO',
+                'FAKULTAS' => 'FAKULTAS REKAYASA INDUSTRI',
                 'PRODI' =>
                 [
                     'Teknik Industri',
@@ -78,7 +78,7 @@ function arrFakultas()
                 ]
             ],
             [
-                'FAKULTAS' => 'FAKULTAS TEKNIK ELEKTRO',
+                'FAKULTAS' => 'FAKULTAS INFORMATIKA',
                 'PRODI' =>
                 [
                     'Teknik Informatika',
@@ -88,7 +88,7 @@ function arrFakultas()
                 ]
             ],
             [
-                'FAKULTAS' => 'FAKULTAS TEKNIK ELEKTRO',
+                'FAKULTAS' => 'FAKULTAS EKONOMI & BISNIS',
                 'PRODI' =>
                 [
                     'Bisnis Digital',
