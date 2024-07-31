@@ -280,7 +280,7 @@
                                     <td>{{$detail->aset->kategori_aset->nama_kategori}}</td>
                                     <td>{{tglIndo( $detail->peminjaman_aset->tanggal_pinjam )}}</td>
                                     <td>{{tglIndo( $detail->peminjaman_aset->tanggal_kembali )}}</td>
-                                    <td>{{$detail->aset->jumlah}}</td>
+                                    <td>{{$detail->jumlah}}</td>
                                     <td>
                                         {!! printStatus( $detail->status ) !!}
                                     </td>
@@ -378,6 +378,7 @@
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
             $('#example2').DataTable({
                 "paging": true,
+                "aaSorting": [],
                 "lengthChange": false,
                 "searching": false,
                 "ordering": true,

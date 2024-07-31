@@ -43,7 +43,7 @@ class UserController extends Controller
         $jumlahAset = Aset::count();
         $detail_peminjaman = Detail_Peminjaman::whereHas('peminjaman_aset', function ($query) use ($userId) {
             $query->where('id_user', $userId);
-        })->get();
+        })->orderByDesc('id')->get();
         $allPeminjaman = Detail_Peminjaman::whereHas('peminjaman_aset', function ($query) use ($userId) {
             $query->where('id_user', $userId);
         })->count();
@@ -103,11 +103,15 @@ class UserController extends Controller
                     'jumlah' => $item['qty'],
                     'status' => 'V'
                 ]);
+
+                $stokminus = Aset::find($item['id']);
+                $stokminus->jumlah = $stokminus->jumlah - $item['qty'];
+                $stokminus->save();
             }
 
-            Alert::success('Permintaan Transaksi sudah dikirim!', 'Transaksi dikirim.');
+            Alert::success ('Permintaan Transaksi sudah dikirim!', 'Transaksi dikirim.');
             // Redirect jika berhasil
-            return redirect()->route('Katalog')->with('success', 'Aset berhasil diperbarui.');
+            return redirect()->route('Katalog')->with('success', 'Permintaan Transaksi sudah dikirim!.');
         } else {
             // Redirect dengan pesan error jika gagal
             return redirect()->back()->withErrors(['Failed to create transaction.'])->withInput();

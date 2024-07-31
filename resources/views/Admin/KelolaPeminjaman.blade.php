@@ -31,6 +31,14 @@
                     <!-- /.row -->
                     <div class="container-fluid mb-3 bg-white p-3 shadow rounded" style="overflow:scroll">
                         <h4 class="font-weight-bold">Riwayat Peminjaman</h4>
+                        @if(session('success'))
+                        <div class="alert alert-info alert-dismissible fade show my-4" role="alert">
+                            {{ session('success') }}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        @endif
                         <table id="example1" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
@@ -178,6 +186,7 @@
         $("#example1").DataTable({
             "responsive": true,
             "lengthChange": false,
+            "aaSorting": [],
             "autoWidth": false,
             "buttons": ["excel", "pdf", "print", "colvis"]
         }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');

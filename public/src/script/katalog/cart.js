@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const productQty = parseInt(button.getAttribute('data-product-qty'));
             const stockQty = parseInt(button.getAttribute('data-product-stok'));
 
-            tambahkanKeKeranjang(productId, productName, productQty);
+            tambahkanKeKeranjang(productId, productName, productQty, stockQty);
             jumlahBarangKeranjang += productQty;
             updateJumlahKeranjang(jumlahBarangKeranjang);
             updateKeranjangDataInput();
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    function tambahkanKeKeranjang(productId, productName, productQty) {
+    function tambahkanKeKeranjang(productId, productName, productQty, stockQty) {
         const cartList = document.querySelector('.cart-list');
         const listItem = document.createElement('li');
         listItem.className = 'list-group-item d-flex justify-content-between align-items-center d-block';
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <span>${productName}</span>
                 <div class="d-flex align-items-center">
                     <div class="col">
-                        <input type="number" class="form-control product-quantity" id="list${productId}" style="width: 80px;" value="${productQty}" aria-label="Quantity" aria-describedby="basic-addon1">
+                        <input type="number" class="form-control product-quantity no-spinners" id="list${productId}" style="width: 80px;" value="${productQty}" aria-label="Quantity" max="${stockQty}" aria-describedby="basic-addon1">
                     </div>
                     <div class="col">
                         <button class="btn btn-danger btn-sm btn-kurang">-</button>

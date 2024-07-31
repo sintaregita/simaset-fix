@@ -69,7 +69,7 @@ class AdminController extends Controller
     public function Kelola_Peminjaman()
     {
         $pageTitle = 'Admin - Kelola Peminjaman';
-        $histories = Detail_Peminjaman::all();
+        $histories = Detail_Peminjaman::orderByDesc('id')->get();
         return view('Admin.KelolaPeminjaman', compact('histories'));
     }
     public function storeUser(Request $request)
@@ -348,9 +348,6 @@ class AdminController extends Controller
         $approved = Detail_Peminjaman::find($id);
         $approved->status = 'S';
 
-        $stokminus = Aset::find($approved->id_aset);
-        $stokminus->jumlah = $stokminus->jumlah - $approved->jumlah;
-        $stokminus->save();
         $approved->save();
         if (!$approved) {
             return redirect()->to('/Admin/KelolaPeminjaman')->withErrors(['message' => 'Peminjaman tidak ditemukan']);
@@ -410,7 +407,7 @@ class AdminController extends Controller
         if (!$approved) {
             return redirect()->to('/Admin/KelolaPeminjaman')->withErrors(['message' => 'Peminjaman tidak ditemukan']);
         }
-        return redirect()->to('/Admin/KelolaPeminjaman')->with('success', 'Peminjaman telah disetujui');
+        return redirect()->to('/Admin/KelolaPeminjaman')->with('success', 'Peminjaman telah dikembalikan ke tahap awal');
     }
 
     public function destroyUser($id)
@@ -464,7 +461,6 @@ class AdminController extends Controller
 
                 default:
                     return response()->json(['error' => 'kode tidak ditemukan'], 500);
-                    
             }
             return response()->json(['kode_aset' => $kode], 200);
         } else {
